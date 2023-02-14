@@ -1,0 +1,12 @@
+@import '../abstract/variaveis';
+
+.footer {
+    text-align: center;
+
+    .footer__text {
+        .footer__link {
+            color: $laranja;
+            opacity: 0.9;
+        }
+    }
+}

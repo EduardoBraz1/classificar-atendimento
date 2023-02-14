@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <title>Componente de classificação interativa</title>
+</head>
+
+<body>
+  <section class="container__ranting" data-ranting>
+    <img class="container__image-star" src="./images/icon-star.svg" alt="Icone de uma estrela">
+
+    <h1 class="container__titulo">Como você avalia nosso atendimento?</h1>
+
+    <p class="container__text">Por favor, deixe-nos saber como fomos com o seu pedido de suporte. Todos os
+      comentários são apreciados
+      para nos ajudar a melhorar a nossa oferta!
+    </p>
+
+    <ul class="container__buttons">
+      <li class="container__button-rating" data-avaliacao="1">1</li>
+      <li class="container__button-rating" data-avaliacao="2">2</li>
+      <li class="container__button-rating" data-avaliacao="3">3</li>
+      <li class="container__button-rating" data-avaliacao="4">4</li>
+      <li class="container__button-rating" data-avaliacao="5">5</li>
+    </ul>
+
+    <button class="container__button-submit" type="submit" data-botaoEnviar>Enviar</button>
+  </section>
+
+  <!-- Thank you state start -->
+  <section class="container__thanks" data-thanks>
+    <img class="container__thanks__image" src="./images/illustration-thank-you.svg" alt="Imagem agradecimento">
+
+    <p class="container__text-selected">você selecionou <span data-selecao><!-- javascript here --></span> de 5</p>
+
+    <h2 class="container__thanks__titulo">Obrigado!</h2>
+
+    <p class="container_thanks__text">Agradecemos por dedicar seu tempo para avaliar. Se você precisar de mais suporte,
+      não hesite em contactar!
+    </p>
+    
+  </section>
+  <!-- Thank you state end -->
+
+
+  <footer class="footer">
+    <p class="footer__text">Desafio por <a class="footer__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a></p>
+    <p class="footer__text">codificado por <a class="footer__link" href="https://github.com/EduardoBraz1" target="_blank">Eduardo Santos Braz</a></p>
+  </footer>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
