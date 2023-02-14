@@ -21,7 +21,7 @@ Esta é uma solução para o [Desafio do componente de classificação interativ
 ### Links
 
 - Repositorio: [Clique aqui para o Repositorio](https://github.com/EduardoBraz1/classificar-atendimento)
-- Deploy: [Clique aqui para ir ao deploy](https://neon-valkyrie-78653e.netlify.app/)
+- Deploy: [Clique aqui para ir ao deploy](https://classificar-atendimento.netlify.app/)
 
 ## Meu processo
 
